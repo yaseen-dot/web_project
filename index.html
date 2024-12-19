@@ -3,10 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A simple HTML page template.">
+    <meta name="keywords" content="HTML, template, example">
     <title>Your Page Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;        
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #ffffff;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Your HTML Page</h1>
-    <p>This is a basic structure of an HTML file.</p>
+    <header>
+        <h1>Welcome to Your HTML Page</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About This Page</h2>
+        <p>This page serves as a template for creating a simple HTML document.</p>
+        <ul>
+            <li>Easy to understand</li>
+            <li>Responsive design</li>
+            <li>Customizable</li>
+        </ul>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <p>We offer a variety of services to help you succeed.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+    </footer>
+
+    <script>
+        console.log("Welcome to your HTML page!");
+    </script>
 </body>
 </html>
